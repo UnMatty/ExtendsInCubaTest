@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+    <persistence-unit name="ExtendsInCubaTest" transaction-type="RESOURCE_LOCAL">
+
+        <class>com.company.extendsincubatest.entity.ParentOne</class>
+        <class>com.company.extendsincubatest.entity.One</class>
+        <class>com.company.extendsincubatest.entity.ParentTwo</class>
+        <class>com.company.extendsincubatest.entity.Two</class>
+    </persistence-unit>
+</persistence>
